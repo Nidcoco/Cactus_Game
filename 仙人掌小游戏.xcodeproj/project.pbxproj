@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AA1A6E32154E425009C81C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AA1A6E12154E425009C81C9 /* Main.storyboard */; };
+		0AA1A6E52154E427009C81C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AA1A6E42154E427009C81C9 /* Assets.xcassets */; };
+		0AA1A6E82154E427009C81C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AA1A6E62154E427009C81C9 /* LaunchScreen.storyboard */; };
+		0AA1A6EB2154E427009C81C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA1A6EA2154E427009C81C9 /* main.m */; };
+		0AD343352177A3200009C50C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD343332177A3200009C50C /* AppDelegate.m */; };
+		0AD343392177A3910009C50C /* LJYGameViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD343382177A3910009C50C /* LJYGameViewViewController.m */; };
+		0AD343472177B72B0009C50C /* LJYPlayGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD343452177B72B0009C50C /* LJYPlayGameViewController.m */; };
+		0AD343482177B72B0009C50C /* LJYPlayGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AD343462177B72B0009C50C /* LJYPlayGameViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0AA1A6D82154E425009C81C9 /* 仙人掌小游戏.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "仙人掌小游戏.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AA1A6E22154E425009C81C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0AA1A6E42154E427009C81C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AA1A6E72154E427009C81C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0AA1A6E92154E427009C81C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AA1A6EA2154E427009C81C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0AD343322177A3200009C50C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0AD343332177A3200009C50C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0AD343372177A3910009C50C /* LJYGameViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJYGameViewViewController.h; sourceTree = "<group>"; };
+		0AD343382177A3910009C50C /* LJYGameViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJYGameViewViewController.m; sourceTree = "<group>"; };
+		0AD343442177B72B0009C50C /* LJYPlayGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LJYPlayGameViewController.h; sourceTree = "<group>"; };
+		0AD343452177B72B0009C50C /* LJYPlayGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJYPlayGameViewController.m; sourceTree = "<group>"; };
+		0AD343462177B72B0009C50C /* LJYPlayGameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LJYPlayGameViewController.xib; sourceTree = "<group>"; };
+		0AD34349217863850009C50C /* WhackACac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WhackACac-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AA1A6D52154E425009C81C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AA1A6CF2154E425009C81C9 = {
+			isa = PBXGroup;
+			children = (
+				0AA1A6DA2154E425009C81C9 /* 仙人掌小游戏 */,
+				0AA1A6D92154E425009C81C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0AA1A6D92154E425009C81C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AA1A6D82154E425009C81C9 /* 仙人掌小游戏.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AA1A6DA2154E425009C81C9 /* 仙人掌小游戏 */ = {
+			isa = PBXGroup;
+			children = (
+				0AD343362177A3290009C50C /* Controller */,
+				0AD343302177A3200009C50C /* Model */,
+				0AD343312177A3200009C50C /* Other */,
+				0AD343342177A3200009C50C /* View */,
+				0AA1A6E92154E427009C81C9 /* Info.plist */,
+				0AA1A6EA2154E427009C81C9 /* main.m */,
+				0AA1A6E42154E427009C81C9 /* Assets.xcassets */,
+				0AA1A6E62154E427009C81C9 /* LaunchScreen.storyboard */,
+			);
+			path = "仙人掌小游戏";
+			sourceTree = "<group>";
+		};
+		0AD343302177A3200009C50C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0AD343312177A3200009C50C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				0AD34349217863850009C50C /* WhackACac-Prefix.pch */,
+				0AD343322177A3200009C50C /* AppDelegate.h */,
+				0AD343332177A3200009C50C /* AppDelegate.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		0AD343342177A3200009C50C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0AA1A6E12154E425009C81C9 /* Main.storyboard */,
+				0AD343462177B72B0009C50C /* LJYPlayGameViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0AD343362177A3290009C50C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0AD343372177A3910009C50C /* LJYGameViewViewController.h */,
+				0AD343382177A3910009C50C /* LJYGameViewViewController.m */,
+				0AD343442177B72B0009C50C /* LJYPlayGameViewController.h */,
+				0AD343452177B72B0009C50C /* LJYPlayGameViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AA1A6D72154E425009C81C9 /* 仙人掌小游戏 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AA1A6EE2154E427009C81C9 /* Build configuration list for PBXNativeTarget "仙人掌小游戏" */;
+			buildPhases = (
+				0AA1A6D42154E425009C81C9 /* Sources */,
+				0AA1A6D52154E425009C81C9 /* Frameworks */,
+				0AA1A6D62154E425009C81C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "仙人掌小游戏";
+			productName = "仙人掌小游戏";
+			productReference = 0AA1A6D82154E425009C81C9 /* 仙人掌小游戏.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AA1A6D02154E425009C81C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LJY;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "李俊宇";
+				TargetAttributes = {
+					0AA1A6D72154E425009C81C9 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 0AA1A6D32154E425009C81C9 /* Build configuration list for PBXProject "仙人掌小游戏" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0AA1A6CF2154E425009C81C9;
+			productRefGroup = 0AA1A6D92154E425009C81C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AA1A6D72154E425009C81C9 /* 仙人掌小游戏 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AA1A6D62154E425009C81C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA1A6E82154E427009C81C9 /* LaunchScreen.storyboard in Resources */,
+				0AA1A6E52154E427009C81C9 /* Assets.xcassets in Resources */,
+				0AA1A6E32154E425009C81C9 /* Main.storyboard in Resources */,
+				0AD343482177B72B0009C50C /* LJYPlayGameViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AA1A6D42154E425009C81C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD343472177B72B0009C50C /* LJYPlayGameViewController.m in Sources */,
+				0AD343352177A3200009C50C /* AppDelegate.m in Sources */,
+				0AA1A6EB2154E427009C81C9 /* main.m in Sources */,
+				0AD343392177A3910009C50C /* LJYGameViewViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0AA1A6E12154E425009C81C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AA1A6E22154E425009C81C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0AA1A6E62154E427009C81C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AA1A6E72154E427009C81C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0AA1A6EC2154E427009C81C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0AA1A6ED2154E427009C81C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AA1A6EF2154E427009C81C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T928QJH84U;
+				INFOPLIST_FILE = "仙人掌小游戏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-387356991.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0AA1A6F02154E427009C81C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T928QJH84U;
+				INFOPLIST_FILE = "仙人掌小游戏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-387356991.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AA1A6D32154E425009C81C9 /* Build configuration list for PBXProject "仙人掌小游戏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA1A6EC2154E427009C81C9 /* Debug */,
+				0AA1A6ED2154E427009C81C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AA1A6EE2154E427009C81C9 /* Build configuration list for PBXNativeTarget "仙人掌小游戏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA1A6EF2154E427009C81C9 /* Debug */,
+				0AA1A6F02154E427009C81C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AA1A6D02154E425009C81C9 /* Project object */;
+}
